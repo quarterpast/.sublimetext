@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/bash
+if [ -z "$TM_SELECTED_TEXT" ] || grep -Eq '^?$' &lt;&lt;&lt; "$TM_SELECTED_TEXT"; then
+	printf ':'
+else
+	other="v2"
+	[ "$TM_LINE_AFTER" ] &amp;&amp; other=""
+	printf "if \${1:${TM_SELECTED_TEXT:-not v?}} then \${2:v} else\${3/^(.+)\$/(?1: )/}\${3:$other}"
+fi
+</string>
+	<key>fallbackInput</key>
+	<string>none</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>:</string>
+	<key>name</key>
+	<string>Ternary If</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.coco</string>
+	<key>uuid</key>
+	<string>5434E8FC-70E7-46F2-B672-B3976DC3DCFB</string>
+</dict>
+</plist>

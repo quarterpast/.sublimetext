@@ -1,0 +1,3 @@
+{
+	"cmd": ["waf clean; waf build"]
+}

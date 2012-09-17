@@ -1,0 +1,35 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai Dave.tmTheme",
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"fade_fold_buttons": false,
+	"font_face": "ProggySquareTT",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"new_window_settings":
+	{
+		"show_minimap": true,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"overlay_scroll_bars": "enabled",
+	"tab_size": 2,
+	"theme": "Default.sublime-theme",
+	"trim_automatic_white_space": true,
+	"word_wrap": true
+}

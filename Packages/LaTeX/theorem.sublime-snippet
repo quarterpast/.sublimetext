@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\\begin{thm}[${1:theorem name}]
+\label{thm:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3)/g}}}
+${0:$TM_SELECTED_TEXT}
+\\end{thm}]]></content>
+    <tabTrigger>thm</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>\begin{theorem}…\end{theorem}</description>
+</snippet>

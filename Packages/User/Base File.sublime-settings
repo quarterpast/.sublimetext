@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai New copy 5.tmTheme",
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"font_face": "ProggySquareTT",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"tab_size": 2,
+	"word_wrap": true
+}

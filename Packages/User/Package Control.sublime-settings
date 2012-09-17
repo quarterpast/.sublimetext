@@ -1,0 +1,19 @@
+{
+	"auto_upgrade_last_run": 1347916189,
+	"installed_packages":
+	[
+		"Clipboard History",
+		"CoffeeScript",
+		"Color Highlighter",
+		"Git",
+		"JSHint",
+		"LESS",
+		"Package Control",
+		"sublime-jslint",
+		"ZenCoding"
+	],
+	"repositories":
+	[
+		"https://github.com/michaelpnash/sublime-ensime"
+	]
+}

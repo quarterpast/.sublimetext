@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\\begin{lemm}[${1:lemma name}]
+\label{lemm:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3)/g}}}
+${0:$TM_SELECTED_TEXT}
+\\end{lemm}]]></content>
+    <tabTrigger>lemm</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>\begin{lemma}…\end{lemma}</description>
+</snippet>

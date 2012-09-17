@@ -1,0 +1,16 @@
+// Place user-specific overrides in this file, to ensure they're preserved
+// when upgrading
+{
+"new_window_settings":
+	{
+		"side_bar_visible": false,
+		"status_bar_visible": false,
+		"show_tabs": true,
+		"show_minimap": true
+	},
+	"highlight_modified_tabs": true,
+	"close_windows_when_empty": true,
+	"theme": "Soda Light.sublime-theme",
+	"overlay_scroll_bars": "enabled"
+}
+

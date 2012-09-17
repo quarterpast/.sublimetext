@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\\begin{defn}[${1:definition name}]
+\label{defn:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3)/g}}}
+${0:$TM_SELECTED_TEXT}
+\\end{defn}]]></content>
+    <tabTrigger>defn</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>\begin{definition}…\end{definition}</description>
+</snippet>
