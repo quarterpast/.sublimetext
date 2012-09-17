@@ -1,3 +1,4 @@
 Backup
 *.sublime_license
 *.sublime_session
+*.pyc
