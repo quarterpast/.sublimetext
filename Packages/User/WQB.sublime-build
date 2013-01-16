@@ -1,0 +1,4 @@
+{
+	"cmd": ["livescript","build/build.ls","time","debug"],
+	"working_dir": "c:/Users/Matt/Import.io/importio-webui/querybuilder"
+}

@@ -5,6 +5,8 @@
 		"xsd",
 		"xslt",
 		"svg",
-		"jnlp"
+		"jnlp",
+		"iml",
+		"hidden-tmTheme"
 	]
 }

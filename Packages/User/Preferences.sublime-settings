@@ -2,15 +2,18 @@
 	"auto_complete_commit_on_tab": true,
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Dave.tmTheme",
+	"default_line_ending": "unix",
+	"detect_slow_plugins": false,
+	"drag_text": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
-	"font_face": "ProggySquareTT",
+	"font_face": "Terminus",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12,
+	"font_size": 9,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -28,8 +31,9 @@
 		"status_bar_visible": false
 	},
 	"overlay_scroll_bars": "enabled",
+	"soda_classic_tabs": false,
 	"tab_size": 2,
-	"theme": "Default.sublime-theme",
+	"theme": "Soda Dark.sublime-theme",
 	"trim_automatic_white_space": true,
 	"word_wrap": true
 }

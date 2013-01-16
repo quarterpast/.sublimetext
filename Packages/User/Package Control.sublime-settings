@@ -1,16 +1,23 @@
 {
-	"auto_upgrade_last_run": 1347954750,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"Clipboard History",
 		"CoffeeScript",
-		"Color Highlighter",
+		"Cucumber",
+		"Emmet",
 		"Git",
 		"JSHint",
 		"LESS",
+		"LiveReload",
 		"Package Control",
-		"sublime-jslint",
-		"ZenCoding"
+		"PlainTasks",
+		"SideBarEnhancements",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeTODO",
+		"Theme - Soda",
+		"View Movement"
 	],
 	"repositories":
 	[

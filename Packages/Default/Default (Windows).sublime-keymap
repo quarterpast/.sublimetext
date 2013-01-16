@@ -29,8 +29,6 @@
 
 	{ "keys": ["ctrl+shift+v"], "command": "paste_and_indent" },
 	{ "keys": ["shift+delete"], "command": "cut" },
-	{ "keys": ["ctrl+insert"], "command": "copy" },
-	{ "keys": ["shift+insert"], "command": "paste" },
 	{ "keys": ["ctrl+x"], "command": "cut" },
 	{ "keys": ["ctrl+c"], "command": "copy" },
 	{ "keys": ["ctrl+v"], "command": "paste" },
@@ -178,7 +176,6 @@
 	{ "keys": ["ctrl+]"], "command": "indent" },
 	{ "keys": ["ctrl+["], "command": "unindent" },
 
-	{ "keys": ["insert"], "command": "toggle_overwrite" },
 
 	{ "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
 	{ "keys": ["ctrl+d"], "command": "find_under_expand" },
