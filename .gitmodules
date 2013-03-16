@@ -1,0 +1,3 @@
+[submodule "Packages/Mirah"]
+	path = Packages/Mirah
+	url = git://github.com/ishikawa/sublime-text-2-mirah.git
