@@ -13,7 +13,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 9,
+	"font_size": 8,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -35,6 +35,5 @@
 	"soda_classic_tabs": false,
 	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
-	"trim_automatic_white_space": false,
 	"word_wrap": true
 }
